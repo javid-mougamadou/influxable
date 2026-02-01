@@ -6,3 +6,24 @@ plugins:
 title: Influxable
 description: A lightweight Python ORM / ODM / Client for InfluxDB
 show_downloads: true
+
+# SEO: meta keywords (balise keywords + renforcement sémantique)
+keywords:
+  - Javid Mougamadou Influxable InfluxDB Python ORM Driver
+  - Javid Mougamadou
+  - Influxable
+  - InfluxDB
+  - Python ORM
+  - Python ORM Driver
+  - Python ODM
+  - InfluxDB client
+  - time series database
+  - Python InfluxDB
+  - measurement
+  - time series
+  - Python
+
+# SEO: auteur et URL (utilisés par jekyll-seo-tag pour Open Graph, Twitter Cards, canonical)
+author: Javid Mougamadou
+url: https://influxable.javid-space.cloud
+logo: /assets/images/logo.svg
