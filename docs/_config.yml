@@ -1,0 +1,8 @@
+# Jekyll configuration - Cayman theme for Influxable docs
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+title: Influxable
+description: A lightweight Python ORM / ODM / Client for InfluxDB
+show_downloads: true

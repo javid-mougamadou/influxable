@@ -66,6 +66,9 @@ instance/
 # Sphinx documentation
 docs/_build/
 
+# Jekyll build output (GitHub Actions builds and deploys)
+docs/_site/
+
 # PyBuilder
 target/
 
