@@ -2,7 +2,7 @@
 layout: default
 title: Influxable
 description: A lightweight Python ORM / ODM / Client for InfluxDB
-last_modified_at: 2025-02-02
+last_modified_at: 2026-02-02
 keywords:
   - Javid Mougamadou Influxable InfluxDB Python ORM Driver
   - Javid Mougamadou
