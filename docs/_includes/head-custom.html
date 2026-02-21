@@ -1,1 +1,22 @@
 <meta name="keywords" content="{% if page.keywords %}{{ page.keywords | join: ', ' }}{% elsif site.keywords %}{{ site.keywords | join: ', ' }}{% else %}Influxable, InfluxDB, Python ORM{% endif %}">
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow">
+
+<!-- Schema.org SoftwareApplication JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "{{ site.title | default: 'Influxable' }}",
+  "description": "{{ site.description | default: page.description }}",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Python",
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.author | default: 'Javid Mougamadou' }}"
+  },
+  "url": "{{ site.url }}",
+  "keywords": "{% if page.keywords %}{{ page.keywords | join: ', ' }}{% elsif site.keywords %}{{ site.keywords | join: ', ' }}{% else %}Influxable, InfluxDB, Python ORM, time series{% endif %}",
+  "softwareVersion": "1.4.0"
+}
+</script>

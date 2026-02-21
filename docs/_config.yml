@@ -3,6 +3,7 @@ remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 title: Influxable
 description: A lightweight Python ORM / ODM / Client for InfluxDB
@@ -23,6 +24,14 @@ keywords:
   - measurement
   - time series
   - Python
+
+# Sitemap: exclure les docs internes de l'indexation
+defaults:
+  -
+    scope:
+      path: "GITHUB_PAGES_SETUP.md"
+    values:
+      sitemap: false
 
 # SEO: auteur et URL (utilisés par jekyll-seo-tag pour Open Graph, Twitter Cards, canonical)
 author: Javid Mougamadou
